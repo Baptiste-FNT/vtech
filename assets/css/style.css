@@ -1,0 +1,55 @@
+﻿body {
+  background-color: #141414;
+}
+
+/** Mon carousel*/
+
+.carousel-item img {
+  margin: 0 auto;
+  height: 30rem;
+}
+
+/** Ma bannière (Page : contenue)*/
+
+.banner img {
+  margin: 0 auto;
+  height: 30rem;
+}
+
+/** Mon contenue de page*/
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.categorie_titre {
+  color: aliceblue;
+  font-family: fangsong;
+  font-size: xx-large;
+}
+
+.section_video a {
+  width: auto;
+  padding-left: 5px;
+  transition: transform 0.25s;
+}
+
+.section_video a:hover {
+  transform: scale(1.05);
+}
+
+.section_video a img {
+  height: 160px;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    position: relative;
+    width: 100%;
+  }
+  .section_video {
+    overflow-x: auto;
+  }
+}
